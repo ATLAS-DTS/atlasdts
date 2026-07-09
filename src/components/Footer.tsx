@@ -19,7 +19,13 @@ export default function Footer() {
     <footer className="bg-navy-deep py-12">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-4 text-center sm:flex-row sm:justify-between sm:text-left">
         <div className="flex flex-col items-center gap-3 sm:items-start">
-          <span className="text-lg font-semibold text-white">Atlas DTS</span>
+          <div className="flex items-center gap-2.5">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white p-1">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/icon.svg" alt="" className="h-full w-full" aria-hidden="true" />
+            </span>
+            <span className="text-lg font-semibold text-white">Atlas DTS</span>
+          </div>
           <div className="flex flex-col items-center gap-2 text-sm sm:flex-row sm:gap-4">
             <a href={`mailto:${CONTACT_EMAIL}`} className="text-white hover:underline">
               {CONTACT_EMAIL}
