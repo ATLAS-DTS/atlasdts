@@ -1,4 +1,3 @@
 export const SITE_URL = "https://webuydts.com";
 export const CONTACT_EMAIL = "info@webuydts.com";
-// OWNER_INPUT: replace with the real Atlas DTS Facebook page URL.
-export const FACEBOOK_URL = "https://www.facebook.com/atlasdts";
+export const FACEBOOK_URL = "https://www.facebook.com/people/Atlas-DTS/61591895965662/";
